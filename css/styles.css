@@ -337,8 +337,8 @@ button {
 
 .footer-text {
     color: var(--accent-color);
-    margin-top: 16px;
     letter-spacing: 0.02em;
+    margin-top: 16px;
     line-height: 24px;
 }
 
