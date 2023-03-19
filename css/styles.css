@@ -74,7 +74,7 @@ button {
 }
 
 .header-logo {
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -387,17 +387,31 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color: var(--logo-text-color)
-    
 }
+
 
 .text-btn {
     padding: 12px 24px;
-    background-color: var(--accent-color);
     border-color: transparent;
     border-radius: 4px;
     border: none;
     text-transform: none;
+    background: var(--footer-text-color);
+    color: var(--logo-text-color)
+}
+
+.text-btn:hover,
+.text-btn:hover {
+    background-color: var(--color-ocean);
+    color: var(--body-color);
+
+}
+
+.text-btn:focus,
+.text-btn:focus {
+    background-color: var(--color-ocean);
+    color: var(--body-color);
+
 }
 
 .about-img {
@@ -427,11 +441,10 @@ button {
 }
 
 .text-service {
-    display: flex;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 8px;
+    margin-top: 8px;
     
     color: var(--praimary-text-color);
 
