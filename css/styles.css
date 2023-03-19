@@ -74,6 +74,7 @@ button {
 }
 
 .header-logo {
+    font-family: "Roboto", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -110,8 +111,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-    margin-left: auto;
-    margin-right: 40px;
 }
 
 .header-link:hover {
@@ -133,7 +132,7 @@ button {
 .header-list {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 40px;
 }
 
 
@@ -315,7 +314,7 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-grey);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .hero-logo {
@@ -340,6 +339,7 @@ button {
     color: var(--accent-color);
     margin-top: 16px;
     letter-spacing: 0.02em;
+    line-height: 24px;
 }
 
 
